@@ -1,0 +1,26 @@
+{
+  "name": "kappa/math",
+  "description": "Math library for PHP",
+  "keywords": ["math"],
+  "homepage": "https://github.com/Kappa-org/Math",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Ondřej Záruba",
+      "homepage": "http://zaruba-ondrej.cz"
+    }
+  ],
+  "support": {
+    "email": "zarubaondra@gmail.com",
+    "issues": "https://github.com/Kappa-org/Math"
+  },
+  "require-dev": {
+    "nette/tester": "~1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kappa\\Math\\": "src/"
+    }
+  }
+}
